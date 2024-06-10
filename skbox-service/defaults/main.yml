@@ -1,0 +1,3 @@
+---
+# defaults file for skbox-service
+container_image: ubuntu

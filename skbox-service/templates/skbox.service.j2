@@ -1,0 +1,10 @@
+[Unit]
+Description= Skillbox Service DevOps final
+
+[Service]
+Type=forking
+EnvironmentFile=/etc/skillbox_env
+ExecStart= /usr/bin/docker run {{ container_image }}
+
+[Install]
+WantedBy=multi-user.target

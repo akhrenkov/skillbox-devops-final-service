@@ -1,0 +1,4 @@
+---
+# handlers file for skbox-service
+- name: reload systemctl
+  command: systemctl daemon-reload
